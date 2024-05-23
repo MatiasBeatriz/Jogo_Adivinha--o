@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Adivinha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="body">
+        <div class="content">
+            <div class="body-in">
+                <h1>Jogo Adivinha</h1>
+                <p>Digite um número entre 1 e 10 e tente a sorte! Você tem 2 tentativas.</p>
+                <input type="number" id="numero-input" min="1" max="10"/>
+                <button onclick="verifica()" id="Enviar" class="container_botao">Enviar</button> <!--botao-->
+                <p id="tentativas-restantes">Tentativas restantes: 2</p>
+                <p id="feedback"></p> <!--para funcionar-->
+            </div>
+            <div class="image-container">
+                <img src="../JOGO/img/img.png" alt="Garota game ">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
